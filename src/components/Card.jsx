@@ -13,8 +13,8 @@ const Card = ({ data, reference }) => {
         type: "spring",
         stiffness: 260,
         damping: 20,
-        ease: "easeOut", 
-        duration: 5
+        ease: "easeOut",
+        duration: 5,
       }}
       whileHover={{ scale: 1.2 }}
       whileTap={{
